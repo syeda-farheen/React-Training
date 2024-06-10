@@ -1,0 +1,27 @@
+body {
+    margin: 10px;
+}
+
+#first {
+    color: blue;
+}
+
+/* .product {
+    color: aquamarine;
+} */
+
+article[autocapitalize] {
+    color: darkcyan;
+}
+
+a[target="_blank"] {
+    color: brown;
+}
+
+a[href*="google"] {
+    color: palevioletred;
+}
+
+.not-visited {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
