@@ -25,3 +25,64 @@ a[href*="google"] {
 .not-visited {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#section1 p {
+    color: chocolate;
+} 
+
+#section1 > p {
+    color: chartreuse;
+}
+
+#section1 ~ p {
+    color: blueviolet;
+}
+
+#section1 + p {
+    color: fuchsia;
+}
+
+article p:first-of-type {
+    font-style: oblique;
+}
+
+article a:last-of-type {
+    font-style: italic;
+}
+
+ul li:nth-child(odd) {
+    color: brown;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:hover {
+    font-size: xx-large;
+}
+
+.pseudo-ele p::first-letter {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.pseudo-ele ::selection {
+    background-color: bisque;
+}
+
+.pseudo-ele p::after {
+    content: "...";
+    display: block;
+    font-weight: bold;
+}
+/* CSS showing inheritance */
+p {
+    color: dodgerblue;
+    border: 1px solid black;
+}
+
+strong {
+     color: initial;
+     border: inherit;
+}
