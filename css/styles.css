@@ -86,3 +86,123 @@ strong {
      color: initial;
      border: inherit;
 }
+
+.parent, .gra_parent, .radial_parent, .borders, .shadows {
+    display: flex;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(230, 205, 16);
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(230, 205, 16, 0.5);
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #58bf74;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: hsla(53, 65%, 77%, 0.5);
+}
+
+.gra1 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(dodgerblue, yellow)
+}
+
+.gra2 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right,black, red)
+}
+
+.gra3 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom right, orange, blue 50%)
+}
+
+.radial1 {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(yellow, white)
+}
+
+.radial2 {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at top left, pink, lightblue)
+}
+
+.bor1 {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: 10px solid blue;
+}
+
+.bor2 {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: 10px dashed blue;
+}
+
+.bor3 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 10px dashed lightseagreen;
+    border-width: 10px 5px 7px 4px;
+}
+
+.bor4 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 10px dashed lightseagreen;
+    border-width: 10px 5px 7px 4px;
+    border-radius: 10px;
+}
+
+.shadow1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    box-shadow: 10px 10px grey;
+}
+    
+.shadow2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    box-shadow: 10px 10px grey;
+}
+
+.shadow3 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.text-shadows {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.txt-shdw {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
